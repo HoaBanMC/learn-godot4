@@ -1,6 +1,6 @@
-[gd_scene load_steps=8 format=3 uid="uid://d0m6y054f1mim"]
+[gd_scene load_steps=8 format=3 uid="uid://pdcvuqynqgfy"]
 
-[ext_resource type="Script" path="res://Scripts/Card.gd" id="1_mc266"]
+[ext_resource type="Script" path="res://Scripts/card.gd" id="1_fqlj3"]
 [ext_resource type="Texture2D" uid="uid://maog06f1dooc" path="res://Assets/backgrounds/background.svg" id="2_sjgvp"]
 [ext_resource type="Texture2D" uid="uid://cduj7ckda2ss0" path="res://Assets/animals/chick.png" id="3_bxvlx"]
 
@@ -95,7 +95,7 @@ _data = {
 }
 
 [node name="Card" type="Node2D"]
-script = ExtResource("1_mc266")
+script = ExtResource("1_fqlj3")
 metadata/_edit_group_ = true
 
 [node name="Back" type="Sprite2D" parent="."]

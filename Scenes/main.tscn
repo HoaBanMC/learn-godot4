@@ -1,6 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://b76q3ru0njsot"]
+[gd_scene load_steps=2 format=3 uid="uid://b77c035p2c3je"]
 
-[ext_resource type="Script" path="res://Scripts/main.gd" id="1_wjmsj"]
+[sub_resource type="GDScript" id="GDScript_vhg3f"]
+script/source = "extends Node2D
+
+
+func _ready():
+	
+	
+	
+	pass
+"
 
 [node name="Main" type="Node2D"]
-script = ExtResource("1_wjmsj")
+script = SubResource("GDScript_vhg3f")
+
+[node name="FileDialog" type="FileDialog" parent="."]
